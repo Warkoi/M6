@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23CB813D2806608E0054D38A /* City_Sights_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB813C2806608E0054D38A /* City_Sights_AppApp.swift */; };
-		23CB813F2806608E0054D38A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB813E2806608E0054D38A /* ContentView.swift */; };
+		23CB813D2806608E0054D38A /* CitySightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB813C2806608E0054D38A /* CitySightsApp.swift */; };
+		23CB813F2806608E0054D38A /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB813E2806608E0054D38A /* LaunchView.swift */; };
 		23CB8141280660900054D38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CB8140280660900054D38A /* Assets.xcassets */; };
 		23CB8144280660900054D38A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CB8143280660900054D38A /* Preview Assets.xcassets */; };
+		23CB8152280671F70054D38A /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB8151280671F70054D38A /* ContentModel.swift */; };
+		23CB8158280917020054D38A /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB8157280917010054D38A /* Business.swift */; };
+		23CB815A280919A10054D38A /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB8159280919A10054D38A /* BusinessSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23CB81392806608E0054D38A /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23CB813C2806608E0054D38A /* City_Sights_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_Sights_AppApp.swift; sourceTree = "<group>"; };
-		23CB813E2806608E0054D38A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23CB813C2806608E0054D38A /* CitySightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightsApp.swift; sourceTree = "<group>"; };
+		23CB813E2806608E0054D38A /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		23CB8140280660900054D38A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23CB8143280660900054D38A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23CB8151280671F70054D38A /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		23CB8157280917010054D38A /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		23CB8159280919A10054D38A /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +57,10 @@
 		23CB813B2806608E0054D38A /* City Sights App */ = {
 			isa = PBXGroup;
 			children = (
-				23CB814D2806611E0054D38A /* Models */,
-				23CB814C280661150054D38A /* ViewModels */,
+				23CB813C2806608E0054D38A /* CitySightsApp.swift */,
 				23CB814B280661040054D38A /* Views */,
+				23CB814C280661150054D38A /* ViewModels */,
+				23CB814D2806611E0054D38A /* Models */,
 				23CB8140280660900054D38A /* Assets.xcassets */,
 				23CB8142280660900054D38A /* Preview Content */,
 			);
@@ -71,8 +78,7 @@
 		23CB814B280661040054D38A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				23CB813C2806608E0054D38A /* City_Sights_AppApp.swift */,
-				23CB813E2806608E0054D38A /* ContentView.swift */,
+				23CB813E2806608E0054D38A /* LaunchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -80,6 +86,7 @@
 		23CB814C280661150054D38A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				23CB8151280671F70054D38A /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -87,6 +94,8 @@
 		23CB814D2806611E0054D38A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				23CB8157280917010054D38A /* Business.swift */,
+				23CB8159280919A10054D38A /* BusinessSearch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CB813F2806608E0054D38A /* ContentView.swift in Sources */,
-				23CB813D2806608E0054D38A /* City_Sights_AppApp.swift in Sources */,
+				23CB813F2806608E0054D38A /* LaunchView.swift in Sources */,
+				23CB8158280917020054D38A /* Business.swift in Sources */,
+				23CB813D2806608E0054D38A /* CitySightsApp.swift in Sources */,
+				23CB815A280919A10054D38A /* BusinessSearch.swift in Sources */,
+				23CB8152280671F70054D38A /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +304,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"City Sights App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/warkois/Desktop/xCode/City Sights App/City Sights App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,7 +333,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"City Sights App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/warkois/Desktop/xCode/City Sights App/City Sights App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
