@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2362347328150319003DF36D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362347228150319003DF36D /* Constants.swift */; };
 		23CB813D2806608E0054D38A /* CitySightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB813C2806608E0054D38A /* CitySightsApp.swift */; };
 		23CB813F2806608E0054D38A /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB813E2806608E0054D38A /* LaunchView.swift */; };
 		23CB8141280660900054D38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CB8140280660900054D38A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2362347228150319003DF36D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		23CB81392806608E0054D38A /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CB813C2806608E0054D38A /* CitySightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightsApp.swift; sourceTree = "<group>"; };
 		23CB813E2806608E0054D38A /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236234712814FEF3003DF36D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2362347228150319003DF36D /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		23CB81302806608E0054D38A = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 				23CB814B280661040054D38A /* Views */,
 				23CB814C280661150054D38A /* ViewModels */,
 				23CB814D2806611E0054D38A /* Models */,
+				236234712814FEF3003DF36D /* Helpers */,
 				23CB8140280660900054D38A /* Assets.xcassets */,
 				23CB8142280660900054D38A /* Preview Content */,
 			);
@@ -175,6 +186,7 @@
 				23CB813D2806608E0054D38A /* CitySightsApp.swift in Sources */,
 				23CB815A280919A10054D38A /* BusinessSearch.swift in Sources */,
 				23CB8152280671F70054D38A /* ContentModel.swift in Sources */,
+				2362347328150319003DF36D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
