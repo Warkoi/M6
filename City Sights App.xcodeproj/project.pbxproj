@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233539B7281E3610007C521F /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233539B6281E3610007C521F /* BusinessRow.swift */; };
 		2362347328150319003DF36D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362347228150319003DF36D /* Constants.swift */; };
 		2362347A281B97E7003DF36D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23623479281B97E7003DF36D /* HomeView.swift */; };
 		2362347D281CE12B003DF36D /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362347C281CE12B003DF36D /* BusinessList.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		233539B6281E3610007C521F /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		2362347228150319003DF36D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		23623479281B97E7003DF36D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2362347C281CE12B003DF36D /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				2362347C281CE12B003DF36D /* BusinessList.swift */,
 				23623482281CE66E003DF36D /* BusinessSectionHeader.swift */,
 				23623484281CE9C4003DF36D /* BusinessSection.swift */,
+				233539B6281E3610007C521F /* BusinessRow.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CB813F2806608E0054D38A /* LaunchView.swift in Sources */,
+				233539B7281E3610007C521F /* BusinessRow.swift in Sources */,
 				2362347A281B97E7003DF36D /* HomeView.swift in Sources */,
 				23CB8158280917020054D38A /* Business.swift in Sources */,
 				23623483281CE66E003DF36D /* BusinessSectionHeader.swift in Sources */,

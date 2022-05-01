@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreLocation
+import SwiftUI
 
 class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
     
@@ -106,13 +107,25 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
                     do {
                         let decoder = JSONDecoder()
                         let result = try decoder.decode(BusinessSearch.self, from: data!)
+                        
+                        // Sort businesses
+                        var businesses = result.businesses
+                        businesses.sort {(b1, b2) -> Bool in
+                            return b1.distance ?? 0 < b2.distance ?? 0
+                        }
+                        
+                        // Call the get image funciton of the business
+                        for b in result.businesses{
+                            b.getImageData()
+                        }
+                        
                         DispatchQueue.main.async {
 
                             switch category{
                             case Constants.sightsKey:
-                                self.sights = result.businesses
+                                self.sights = businesses
                             case Constants.restaurantsKey:
-                                self.restaurants = result.businesses
+                                self.restaurants = businesses
                             default:
                                 break
                             }
