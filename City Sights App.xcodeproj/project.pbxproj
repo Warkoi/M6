@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		233539B7281E3610007C521F /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233539B6281E3610007C521F /* BusinessRow.swift */; };
+		233539BA2824C258007C521F /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233539B92824C258007C521F /* BusinessDetail.swift */; };
 		2362347328150319003DF36D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362347228150319003DF36D /* Constants.swift */; };
 		2362347A281B97E7003DF36D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23623479281B97E7003DF36D /* HomeView.swift */; };
 		2362347D281CE12B003DF36D /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362347C281CE12B003DF36D /* BusinessList.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		233539B6281E3610007C521F /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
+		233539B92824C258007C521F /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		2362347228150319003DF36D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		23623479281B97E7003DF36D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2362347C281CE12B003DF36D /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		233539B82824C23C007C521F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				233539B92824C258007C521F /* BusinessDetail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		236234712814FEF3003DF36D /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 				23623482281CE66E003DF36D /* BusinessSectionHeader.swift */,
 				23623484281CE9C4003DF36D /* BusinessSection.swift */,
 				233539B6281E3610007C521F /* BusinessRow.swift */,
+				233539B82824C23C007C521F /* Detail */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -234,6 +245,7 @@
 				23CB8158280917020054D38A /* Business.swift in Sources */,
 				23623483281CE66E003DF36D /* BusinessSectionHeader.swift in Sources */,
 				23CB813D2806608E0054D38A /* CitySightsApp.swift in Sources */,
+				233539BA2824C258007C521F /* BusinessDetail.swift in Sources */,
 				23CB815A280919A10054D38A /* BusinessSearch.swift in Sources */,
 				2362347D281CE12B003DF36D /* BusinessList.swift in Sources */,
 				23623485281CE9C4003DF36D /* BusinessSection.swift in Sources */,
