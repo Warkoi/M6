@@ -42,6 +42,7 @@ struct HomeView: View {
                     // show map
                     BusinessMap()
                         .ignoresSafeArea()
+                    
                 }
             }
             
